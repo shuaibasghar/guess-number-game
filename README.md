@@ -1,1 +1,1 @@
-# guess-number-game
+# vanilla javascript basic projects
