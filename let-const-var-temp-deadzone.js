@@ -108,9 +108,26 @@ var b=100;
  * 
  * let a=10;
  * a=20; ------------this will not throw any error.
+ * 
+ * 
+ * 
+ * 
+ * ------------best way to avoid temporal dead zone
+ * ----only initialized the variables on top of the code.
+ * 
 */
 
 
-let x=10;
-let x=20;
-console.log("window--is",window)
+
+
+
+
+
+
+
+
+
+/**
+ * 
+ * alway
+ */
