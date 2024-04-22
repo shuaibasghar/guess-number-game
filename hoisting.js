@@ -83,3 +83,16 @@ var getName3=function(){
 // we are in the global execution context and we are in the getName function and it is put in the call stack untill it executes and it creates a brand new execution context
 // now put a debugger breakpoint inside the function you will see the getName function in the call stack and it will be executed and then it will be removed from the call stack or popped off from the call stack
 //now when you see the getName function is invoked it will be put in the call stack and it will be executed and then it will be removed from the call stack
+
+
+
+
+// simple precise definition of hoisting is that all the variable and function will be hoisted 
+/**
+ 
+Hoisting in JavaScript is a process where variable and function declarations are moved to the top of their containing scope during the compile phase.
+ Only declarations are hoisted, not initializations. 
+ This means you can use variables and functions before they are declared in the code. 
+ However, using a variable before it's initialized will return undefined. 
+ Function declarations are fully hoisted, allowing them to be called before they are declared.
+ */
